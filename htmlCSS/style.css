@@ -1,0 +1,66 @@
+body {
+  background-color: #0d0d0d;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+  color: #ff3c00;
+  text-align: center;
+  font-size: 44px;
+  text-shadow: 2px 2px 8px #ff3c00;
+}
+
+.links {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #00bfff;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #ff3c00;
+  font-size: 24px;
+  text-decoration-style: double;
+  text-shadow: 1px 1px 5px #ff3c00;
+}
+
+a:active {
+  color: #ffcc00;
+  text-decoration-color: red;
+}
+
+p {
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: #e0e0e0;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.vehicles, .home, .cars, .trains, .planes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.vehicles > img,
+.home > img,
+.cars > img,
+.trains > img,
+.planes > img {
+  width: 300px;
+  box-shadow: 0 0 15px #ff3c00;
+}
+.home-pic, .car, .train, .plane {
+  order: -1;
+  margin: 15px;
+}
